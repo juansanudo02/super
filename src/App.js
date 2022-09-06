@@ -14,11 +14,11 @@ function App() {
   
         
           <Routes>
-            <Route index element={<Home />} />
-            <Route path='/marvel' element={<Marvel />} />
-            <Route path='/dccomics' element={<Dccomics />} />
-            <Route path='/superheroes' element={<SuperHeroes />} />
-            <Route path='/superheroines' element={<SuperHeroines />} />       
+            <Route path='/' element={<Home />} />
+            <Route path='marvel' element={<Marvel />} />
+            <Route path='dccomics' element={<Dccomics />} />
+            <Route path='superheroes' element={<SuperHeroes />} />
+            <Route path='superheroines' element={<SuperHeroines />} />       
             <Route path='*' element={<ErrorPage />} />       
           </Routes>
        
